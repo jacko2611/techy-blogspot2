@@ -4,28 +4,28 @@ const { Comment } =require ('../models');
 const commentData = [
     {
         user_id: 3,
-        post_id: 3,
-        comment_text: "Super Useful and helped me survive it"
-    },
-    {
-        user_id: 1,
-        post_id: 3,
-        comment_text: "Yeah I think you need to add more points"
-    },
-    {
-        user_id: 2,
-        post_id: 3,
-        comment_text: "Sounds like you didnt survive"
+        post_id: 1,
+        comment_content: "It's a great choice!"
     },
     {
         user_id: 2,
         post_id: 1,
-        comment_text: "I like the work you've done"
+        comment_content: "Would definitely recommend it, steamlined the process for me."
     },
     {
-        user_id: 1,
+        user_id: 3,
         post_id: 2,
-        comment_text: "Wow this guy knows what hes talking about"
+        comment_content: "Look at my post on the subject."
+    },
+    {
+        user_id: 3,
+        post_id: 3,
+        comment_content: "Determination and a positive attitude will get you through it."
+    },
+    {
+        user_id: 3,
+        post_id: 3,
+        comment_content: "Use the resources available to you, the TAs and instructors are there to help you."
     }
 ]
 
