@@ -1,0 +1,14 @@
+<!-- Iterates over the list of blog posts-->
+
+{{#each posts as |posts| }}
+
+{{>post-info post}}
+
+</div>
+
+{{else}}
+
+{{!-- Else display when the list in empty --}}
+<h6 class='pb-5 text center font-italic'>No posts to display</h6>
+
+{{/each}}

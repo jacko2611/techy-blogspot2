@@ -1,0 +1,26 @@
+
+
+<div class='card mb-6'>
+    
+    <header class='card-header card-header-title text-white bg-secondary'>
+
+        <div class='col-6'>
+            <p class='text-white'></p>
+            <a href='/posts/{{id}}' class='text-black justify-content-end text-capitalized card-title'>{{title}}</a>
+        </div>
+
+        <div class='col-9'>
+            <span class=''></span>
+        </div>
+    </header>
+
+    <div class='card-content'>
+        <div class='content text-center card-text'>{{content}}</div>
+        <div class='d-flex justify-content-end'>
+            <b>{{user.username}}</b> |
+            | {{format_date created_at}} | <a href='/posts/{{id}}'>{{comments.length}} {{format_plural "comment"
+                comments.length}}</a>
+        </div>
+    </div>
+
+</div>
